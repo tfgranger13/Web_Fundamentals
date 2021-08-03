@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 600px;
+}
+#header {
+    position: relative;
+}
+.hbar {
+    background-color: #16a2b9;
+    width: inherit;
+    height: 80px;
+}
+.header img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: gray 1px solid;
+    background-color: white;
+    padding: 1px;
+    position: absolute;
+    top: 40px;
+    margin-left: 20px
+}
+
+.main {
+    border: 2px gray solid;
+}
+.text {
+    margin: 40px 0px 0px 20px;
+}
+.name {
+    margin-bottom: 20px;
+}
+.location {
+    display: flex;
+    margin-bottom: 20px;
+}
+.titles {
+    margin-bottom: 20px;
+}
+.edit {
+    display: flex;
+    margin-bottom: 20px;
+}
+#gear {
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+#map {
+    height: 15px;
+    width: 10px;
+    margin-right: 10px;
+}

@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border box makes it so the dimensions you enter are sized to fit (set width 400 => 2margin + 2padding + element = 400 */
+    font-family: 'Roboto', sans-serif;
+    outline: 1px red dashed;
+}
+
+
+#title_Header {
+    padding: 20px;
+    border-bottom: 5px red solid;
+    background-color: grey;
+    color: white;
+}
+
+aside {
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+}
+
+main {
+    display: inline-block;
+    width: 500px;
+    padding: 20px;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+aside ul {
+    list-style-type: none;
+}

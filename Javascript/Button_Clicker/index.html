@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+
+<body>
+    <nav>
+        <!-- div for bar -->
+        <div class="nav-bar">
+            <div class="nav-links">
+                <!-- Dojonary -->
+                <h1>Dojonary</h1>
+                <!-- search bar -->
+                <input type="search" name="Search" id="Search" placeholder="Search">
+                <!-- login button -->
+                <button id="login" onclick="log(this)">Login</button>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- div for content -->
+        <div class="content">
+            <!-- div for left -->
+            <div class="left">
+                <div class="entries">
+                    <!-- dojonary entry -->
+                    <div class="entry">
+                        <!-- div for word and likes -->
+                        <div class="word">
+                            <div class="def">
+                                <h1 class="center">ninja</h1>
+                                <p class="center"><em>noun</em></p>
+                                <p class = "center">Plural: <em>ninjas</em></p>
+                                <div class="cent_button">
+                                    <button class="center likes" onclick="likeOne(this)">13 likes</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- div for definition -->
+                        <div class="definition">
+                            <p>A practitioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+                        </div>
+                    </div>
+                    <div class="entry">
+                        <!-- div for word and likes -->
+                        <div class="word">
+                            <div class="def">
+                                <h1 class="center">ninja</h1>
+                                <p class="center"><em>noun</em></p>
+                                <p class="center">Plural: <em>ninjas</em></p>
+                                <div class="cent_button">
+                                    <button class="center likes" onclick="likeTwo(this)">37 likes</button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- div for definition -->
+                        <div class="definition">
+                            <p>A <a href="#">programmer</a> who breaks down problems with <a href="+">zen</a>-like focus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- div for right -->
+            <div class="right">
+                <div class="add">
+                    <div class="user">
+                        <!-- words -->
+                        <h2>Dojonary is defined by <strong>YOU</strong></h2>
+                        <!-- button -->
+                        <div class="cent_button">
+                            <button class="center" id="add_def" onclick="remove(this)">Add Definition</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>

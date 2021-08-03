@@ -1,0 +1,39 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.pole {
+    background-color: lightgray;
+    border-style: solid;
+    border-color: black;
+    width: 15px;
+    height: 550px;
+    margin-top: 25px;
+    margin-left: 25px;
+    vertical-align: top;
+    display: inline-block;
+}
+.flag {
+    margin-top: 25px;
+    display: inline-block;
+    border-color: black;
+    border-style: solid;
+}
+.top {
+    width: 450px;
+    height: 100px;
+    background-color: #1fb43a;
+    border-top: 1px black;
+}
+.middle {
+    width: 450px;
+    height: 100px;
+    background-color: #fffefe;
+}
+.bottom {
+    width: 450px;
+    height: 100px;
+    background-color: #0172c7;
+}

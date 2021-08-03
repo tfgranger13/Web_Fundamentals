@@ -1,0 +1,4 @@
+API - application Programming Interface
+
+Web APIs consist of endpoints that expose resources
+RapidAPI - create an account to find many different APIs

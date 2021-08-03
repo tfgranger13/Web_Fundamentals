@@ -1,0 +1,27 @@
+* {
+    margin: 20px;
+}
+#first{
+    color: rgb(0, 255, 200);
+    background-color: rgb(248, 246, 246);
+    width: 150px;
+    border-radius: 10px;
+    height: 25px;
+    border-color:  rgb(0, 255, 200);
+}
+#second {
+    color: white;
+    background-color:  rgb(0, 255, 200);
+    font-size: 25pt;
+    border-radius: 50%;
+    border-color:  rgb(0, 255, 200);
+    width: 40px;
+    height: 40px;
+}
+#third {
+    color: white;
+    background-color: blue;
+    width: 200px;
+    height: 35px;
+    box-shadow: 5px 5px 5px black;
+}

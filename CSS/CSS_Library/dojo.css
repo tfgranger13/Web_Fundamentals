@@ -1,0 +1,56 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  /* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+/* centers the contents and puts space on the sides */
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+/* circular button style */
+.btn {
+    color: white;
+    background-color:  rgb(0, 255, 200);
+    font-size: 25pt;
+    border-radius: 50%;
+    border-color:  rgb(0, 255, 200);
+    width: 40px;
+    height: 40px;
+}
+/* rows and columns from FLEX-ible Columns */
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.col {
+    flex: 1;
+    background-color: aqua;
+    margin: 10px;
+}
+/* Navbar classes */
+nav {
+    min-width: 800px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px white solid;
+}
+.nav-title {
+    display: flex;
+    margin: 10px;
+    font-weight: lighter;
+}
+.nav-links {
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}

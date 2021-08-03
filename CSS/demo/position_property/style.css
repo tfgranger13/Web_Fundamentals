@@ -1,0 +1,28 @@
+h1 {
+    color: red;
+    position: relative;
+    /* position is relative to where it normally would be */
+    left: 20px;
+    top: 100px;
+}
+
+h2 {
+    color: blue;
+    position: absolute;
+    /* absolute is relative to its parent, out of the flow of the document */
+    left: 400px;
+}
+
+#parent {
+    border: 3px solid red;
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 200px;
+}
+
+#parent img {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+}

@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&family=Patrick+Hand&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'PT Mono', monospace;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+    min-height: inherit;
+}
+
+/* nav styles */
+    nav {
+    background-color: hsl(214deg 86% 80%);
+    color: white;
+    min-height: 75px;
+    width: inherit;
+    font-size: 1.1em;
+    justify-content: space-between;
+}
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'PT Mono', monospace;
+}
+
+/* main styles */
+
+.current-city {
+    min-height: 75px;
+    border-bottom: 2px black groove;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.temp-units {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.forecast {
+    display: flex;
+    gap: 1.5em;
+}
+.forecast img {
+    width: 50%;
+    border-radius: 50%;
+}
+.day {
+    flex: 1;
+    background-color: rgb(211, 211, 211);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+    gap: 1em;
+}
+.temp {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.gapped {
+    gap: 1.5em;
+}
+.low {
+    color: blue;
+}
+
+.high {
+    color: red;
+}
+
+/* alert styles */
+.alert {
+    position: fixed;
+    bottom: 0;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 3px black solid;
+    min-height: 200px;
+    padding: 2em;
+    gap: 2em;
+    background-color: rgb(211, 208, 208);
+}
+.alert button {
+    width: 150px;
+}

@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1 {
+    width: 920px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    width: 900px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+img.octocat {
+    height: 200px;
+    margin: 10px;
+}
+.line {
+    width: 900px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#top {
+    background-color: gray;
+    justify-content: space-between;
+}
+#mid {
+    background-color: pink;
+    justify-content: space-evenly;
+}
+#bot {
+    background-color: turquoise;
+    justify-content: space-between;
+}

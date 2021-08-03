@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.nav-bar {
+    width: 80%;
+    margin: 0 auto;
+    background-color: gray;
+    padding: 10px;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+.left {
+    flex: 2;
+}
+.right {
+    flex: 1;
+}
+.content {
+    display: flex;
+}
+.entries {
+    flex: 2;
+    margin: 10px 10px 10px 0px;
+}
+.entry {
+    margin-bottom: 10px;
+    display: flex;
+    border: solid black 2px;
+    align-items: center;
+}
+.word {
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+.definition {
+    margin: 10px;
+    flex: 2;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.cent_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.def {
+    justify-content: center;
+}
+
+.add {
+    margin: 10px 0px 10px 10px;
+    border: 2px black solid;
+}
+.user {
+    margin: 10px;
+}
+
+button {
+    box-shadow: black 3px 3px;
+    padding: 5px 10px;
+    border: black 2px solid;
+}
+
+#login {
+    background-color: #2a78e5;
+    color: white;
+}
+.likes {
+    background-color: yellow;
+}
+.nav-links h1 {
+    font-size: xx-large;
+}
+
+#add_def {
+    background-color: lightgreen;
+}
+
+input {
+    border: black 2px solid;
+    min-width: 250px;
+}
+.definition p {
+    font-size: large;
+}

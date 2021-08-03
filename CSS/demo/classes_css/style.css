@@ -1,0 +1,29 @@
+/* selector */
+/* ctrl + ? makes a comment */
+/* property */
+/* value */
+
+h1 {
+    color: red;
+    margin: 100px;
+    padding: 20px;
+    /* display: inline-block; */
+}
+#title {
+    background-color: slateblue;
+}
+.items {
+    background-color: yellow;
+}
+/* display changes position */
+.i-block {
+    display: inline-block;
+}
+
+#content {
+    width: 500px;
+}
+
+#left_nav {
+    vertical-align: top;
+}
